@@ -1,0 +1,75 @@
+/* Main Container for Products Page */
+.products-container {
+  background-color: #0d0d0d;
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card for Product Content */
+.products-card {
+  background: #eaeeef;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+/* Title of Product Section */
+.products-title {
+  font-size: 28px;
+  color: #0d4b82; /* Blue title for products */
+  margin-bottom: 30px;
+}
+
+/* Table Styling */
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+/* Table Header */
+.products-table th,
+.products-table td {
+  border: 1px solid #333;
+  padding: 12px 16px;
+  color: #ccc;
+}
+
+.products-table th {
+  background-color: #0d4b82; /* Dark blue for header */
+  color: #fff; /* White text for better contrast */
+}
+
+/* Table Row Styling */
+.products-table tr:nth-child(even) {
+  background-color: #184259; /* Dark blue background for even rows */
+}
+
+.products-table tr:hover {
+  background-color: #1a5d73; /* Slightly lighter shade for hover effect */
+}
+
+/* Buttons for Viewing and Adding Products */
+.view-button,
+.add-button {
+  background-color: #1178a4; /* Blue background */
+  color: #fff; /* White text for buttons */
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.view-button:hover,
+.add-button:hover {
+  background-color: #63a1b0; /* Lighter blue on hover */
+}

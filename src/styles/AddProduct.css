@@ -1,0 +1,109 @@
+/* Global Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Main Container for Add Product Page */
+.addproduct-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f5a71; /* Deep blue background */
+  min-height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* Product Card Styling */
+.addproduct-card {
+  position: relative;
+  background: #e6e4e4;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  color: #0d0d0d;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect on the card */
+.addproduct-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
+}
+
+/* Heading in the Add Product Card */
+.addproduct-card h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #32a8c2; /* Soft blue for the heading */
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Label Styling */
+.form-group label {
+  font-weight: 900;
+  color: #1f6d91;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Input Field Styling */
+.form-group input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: #cbcfd2;
+  color: #0f0e0e;
+  font-size: 15px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input Field Placeholder Styling */
+.form-group input::placeholder {
+  color: #070707;
+}
+
+/* Focus Effect for Input Fields */
+.form-group input:focus {
+  background-color: #c4cdd1;
+  box-shadow: 0 0 5px #32a8c2; /* Blue shadow on focus */
+}
+
+/* Submit Button Styling */
+.submit-btn1 {
+  width: 100%;
+  background-color: #32a8c2; /* Soft blue for the button */
+  color: #0d0d0d; /* Dark text for contrast */
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  box-shadow: 0 0 10px #32a8c2;
+}
+
+/* Hover Effect on Submit Button */
+.submit-btn1:hover {
+  background-color: #134b5e; /* Darker blue for hover */
+  transform: scale(1.03);
+}
+
+/* Disabled Submit Button */
+.submit-btn1:disabled {
+  background-color: #307187; /* Keep the blue theme for disabled button */
+  cursor: not-allowed;
+  opacity: 0.7;
+}

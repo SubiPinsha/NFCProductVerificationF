@@ -1,0 +1,176 @@
+/* ========== Dashboard Container ========== */
+.dashboard {
+  padding: 2rem;
+  background-color: #181818;
+  font-family: "Segoe UI", sans-serif;
+  color: #e0e0e0;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* ========== Headings ========== */
+.dashboard h1,
+.dashboard h2 {
+  color: #1178a4;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* ========== Card Styling ========== */
+.card {
+  background-color: #1f1f1f;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  color: #f0f0f0;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+/* ========== Labels & Inputs ========== */
+.form label,
+.route-users label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #c0c0c0;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.4rem;
+  border-radius: 10px;
+  border: 1px solid #2a2a2a;
+  background-color: #262626;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ========== Buttons ========== */
+button {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #1178a4, #1a5d73);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 0 10px rgba(17, 120, 164, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(to right, #1490c4, #207b94);
+  transform: scale(1.02);
+}
+
+/* ========== Password Display ========== */
+.password-display {
+  margin-top: 1rem;
+  color: #1178a4;
+  font-weight: 600;
+}
+
+/* ========== Product List ========== */
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.product-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  background: #1e2a34;
+  color: #d0e8f5;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(17, 120, 164, 0.1);
+}
+
+/* ========== Sensor Section Table ========== */
+.sensor-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
+}
+
+.sensor-section th {
+  background: linear-gradient(135deg, #1178a4, #1a5d73);
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 2px solid #1a5d73;
+  text-align: center;
+}
+
+.sensor-section td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #333;
+  text-align: center;
+  font-size: 14px;
+  .sensor-section tr:nth-child(even) {
+    background-color: #222;
+  }
+
+  .sensor-section tr:nth-child(odd) {
+    background-color: #1a1a1a;
+  }
+}
+
+/* ========== Loading Text ========== */
+.loading-text {
+  color: #aaa;
+  font-size: 18px;
+  text-align: center;
+  padding: 50px;
+  font-style: italic;
+}
+
+/* ========== Success Message ========== */
+.message {
+  font-size: 16px;
+  color: #1a93c8;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.sensor-section tr {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+/* Reset any cell styles too */
+.sensor-section td,
+.sensor-section th {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+/* Optional: soft alternate rows */
+.sensor-section tr:nth-child(even) {
+  background-color: #3b3c3c !important;
+}
+
+.sensor-section tr:nth-child(odd) {
+  background-color: #111112 !important;
+}
+
+.sensor-section th {
+  background-color: #1a5d73 !important;
+  color: #ffffff !important;
+}

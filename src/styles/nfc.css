@@ -1,0 +1,154 @@
+/* Wrapper for content with professional look */
+.nfc-wrapper33 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 12px; /* Subtle rounding for smooth edges */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Softer, elevated shadow for a modern feel */
+  }
+  
+  /* Card with improved shadow and hover */
+  .card33 {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card33:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15); /* Subtle shadow lift for interaction */
+  }
+  
+  /* Title with clean, modern typography */
+  .title33 {
+    color: #2c5364;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  
+  /* Input fields with refined, minimal style */
+  .input33 {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #2c5364;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    color: #333;
+    background-color: #f9f9f9; /* Light background to enhance readability */
+  }
+  
+  .input33:focus {
+    border-color: #4682b4;
+    box-shadow: 0 0 6px rgba(70, 130, 180, 0.2);
+  }
+  
+  /* Button with sleek hover and refined color scheme */
+  .button33 {
+    background-color: #2c5364;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  }
+  
+  .button33:hover {
+    background-color: #4682b4;
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  /* Status message with professional font weight */
+  .status33 {
+    margin-top: 10px;
+    color: #2c5364;
+    font-weight: 500; /* Slightly lighter font weight for status */
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  /* Product information with subtle refinement */
+  .product-info33 {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #444;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  /* QR Code Section with a modern touch */
+  .qr-section33 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .qr-data33 {
+    margin-top: 10px;
+    background-color: #f0f8ff;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    word-break: break-word;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Light, elegant shadow */
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .qr-data33:hover {
+    background-color: #e6f1f7; /* Soft hover effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Increased shadow depth */
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .nfc-wrapper33 {
+      padding: 25px;
+    }
+  
+    .title33 {
+      font-size: 1.8rem; /* Adjust font size for smaller screens */
+    }
+  
+    .input33, .button33 {
+      font-size: 14px;
+    }
+  
+    .product-info33 {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nfc-wrapper33 {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .title33 {
+      font-size: 1.6rem;
+    }
+  
+    .input33, .button33 {
+      font-size: 13px;
+    }
+  
+    .product-info33 {
+      font-size: 0.85rem;
+    }
+  }
+  

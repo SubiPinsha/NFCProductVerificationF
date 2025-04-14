@@ -1,0 +1,325 @@
+/* src/styles/LandingPage.css */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.landing-page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding-top: 60px; /* Adding space for the fixed navbar */
+}
+
+/* Header and Navbar styling */
+.header {
+  width: 100%;
+
+  background-color: #f2f7f6;
+  color: white;
+}
+
+/* Navbar styling */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  margin-right: 20px;
+}
+
+.navbar-right svg {
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.navbar-right svg:hover {
+  color: #ffa500; /* Change color on hover */
+}
+
+/* Sections styling: stack sections vertically without any space */
+.sections {
+  display: flex;
+  flex-direction: column; /* Stack the sections vertically */
+  padding: 0;
+}
+
+/* Section styling without space between each */
+.section {
+  width: 100%; /* Full width of the container */
+  padding: 200px;
+
+  background-color: #f0f0f0;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  box-sizing: border-box; /* Ensure padding and margin are considered for width */
+}
+
+/* Optional: Different background colors for each section */
+.section-1 {
+  background: linear-gradient(
+    to bottom left,
+    #d4e0e3,
+    #b7c6cc,
+    #307187,
+    #323232
+  );
+}
+
+.section-2 {
+  background-color: #32a8c2;
+}
+
+.section-3 {
+  background-color: #000000e0;
+}
+
+.section-4 {
+  background-color: #0a0a0a;
+}
+
+/* Hero Section Styling */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-top: 0%;
+  color: white;
+}
+
+.hero-text {
+  flex: 1;
+  padding-left: 0;
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 29px;
+  margin-left: 0%;
+  text-align: left;
+}
+
+.hero-text .highlight {
+  color: #5dcae3;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 0%;
+  color: #aaa;
+}
+
+.get-started-btn {
+  background-color: #0b2c36;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #1f6b8ca0;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #5baebc;
+}
+
+.hero-graphic {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-graphic img {
+  max-width: 80%;
+  height: auto;
+}
+
+.section-2 {
+  background-color: #0c6d9e31;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-container {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.features-left {
+  flex: 1;
+  color: #000;
+}
+
+.features-left h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.features-left p {
+  margin-top: 0px;
+  font-size: 16px;
+  max-width: 300px;
+}
+
+.features-left img {
+  width: 200%;
+  max-width: 450px;
+  margin-right: 400px;
+}
+
+.features-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: #6298af;
+  border-radius: 16px;
+  padding: 40px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  height: 160px;
+}
+
+.card-2 {
+  background-color: #4cadc5;
+}
+
+.card-4 {
+  background-color: #6099a2;
+}
+
+.feature-card h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.feature-card span.arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+}
+
+/* Section 3: Call-to-Action */
+.section-3 {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.section-3 h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.section-3 h2 span {
+  color: #39d9dc;
+}
+
+.section-3 p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #bbbbbb;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-3 button {
+  margin-top: 30px;
+  background-color: #1b4761;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  padding: 12px 30px;
+  border-radius: 6px;
+  box-shadow: 4px 4px 10px rgba(141, 220, 57, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section-3 button:hover {
+  background-color: #46c9f1;
+}
+
+/* Section 4: Footer */
+.section-4 {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.section-4 h3 {
+  color: #2588a6;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section-4 p {
+  text-align: center;
+  font-size: 14px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.section-4 span {
+  color: #ffffff;
+}
+
+.section-4 .footer-contact {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.section-4 .footer-links {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.section-4 .footer-bottom {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.5;
+  text-align: center;
+}

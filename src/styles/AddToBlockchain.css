@@ -1,0 +1,82 @@
+/* Global Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Blockchain Container */
+.blockchain-container {
+  background-color: #0f5a71; /* Deep blue background */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Blockchain Card Styling */
+.blockchain-card {
+  background: #f2f3f4;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 600px;
+  color: #000000;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect on the card */
+.blockchain-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+}
+
+/* Heading */
+h2 {
+  color: #32a8c2; /* Bright blue color for the heading */
+  margin-bottom: 30px;
+}
+
+/* Data Group Styling */
+.data-group {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0a0a0a; /* Light gray text for data */
+}
+
+/* Submit Button Styling */
+.submit-btn {
+  background-color: #68b2c3; /* Blue background for submit button */
+  color: #ece8e8; /* Dark text for contrast */
+  padding: 12px 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #32a8c2; /* Subtle blue shadow */
+}
+
+/* Hover effect on Submit Button */
+.submit-btn:hover {
+  background-color: #307187; /* Darker blue on hover */
+  transform: scale(1.03);
+}
+
+/* Message Styling */
+.message {
+  font-size: 16px;
+  color: #32a8c2; /* Bright blue text for messages */
+  margin-top: 20px;
+}
+
+/* Loading Text Styling */
+.loading-text {
+  color: #ccc;
+  font-size: 18px;
+  padding: 50px;
+  text-align: center;
+}
